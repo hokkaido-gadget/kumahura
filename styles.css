@@ -132,6 +132,7 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center right;
   filter: saturate(1.08) contrast(1.02);
 }
 
@@ -141,13 +142,14 @@ a {
   inset: 0;
   z-index: -1;
   background:
-    linear-gradient(90deg, rgba(23, 26, 29, 0.84), rgba(23, 26, 29, 0.44) 48%, rgba(23, 26, 29, 0.08)),
-    linear-gradient(0deg, rgba(23, 26, 29, 0.34), transparent 42%);
+    linear-gradient(90deg, rgba(10, 12, 14, 0.92), rgba(10, 12, 14, 0.76) 34%, rgba(10, 12, 14, 0.28) 68%, rgba(10, 12, 14, 0.08)),
+    linear-gradient(0deg, rgba(10, 12, 14, 0.58), rgba(10, 12, 14, 0.1) 50%);
 }
 
 .hero-content {
   max-width: 760px;
   color: #fff;
+  text-shadow: 0 3px 16px rgba(0, 0, 0, 0.42);
 }
 
 .eyebrow,
