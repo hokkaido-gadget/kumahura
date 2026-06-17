@@ -472,6 +472,17 @@ dd {
   margin-top: auto;
 }
 
+.button-stack {
+  display: grid;
+  width: 100%;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.button-stack .button {
+  margin-top: 0;
+}
+
 .review-card {
   background: var(--charcoal);
   color: #fff;
