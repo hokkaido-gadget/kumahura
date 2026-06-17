@@ -309,6 +309,42 @@ a {
   color: var(--muted);
 }
 
+.hot-video-block {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.62fr) minmax(0, 1fr);
+  gap: clamp(20px, 4vw, 44px);
+  align-items: center;
+  max-width: 1180px;
+  margin: 24px auto 0;
+  padding: clamp(18px, 3vw, 30px);
+  border-radius: 8px;
+  background: var(--charcoal);
+  color: #fff;
+  box-shadow: var(--shadow);
+}
+
+.hot-video-copy h3 {
+  margin: 0;
+  font-size: clamp(26px, 3.6vw, 46px);
+  line-height: 1.16;
+  letter-spacing: 0;
+}
+
+.hot-video-copy p:last-child {
+  margin: 16px 0 0;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.hot-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 0;
+  border-radius: 8px;
+  background: #000;
+}
+
 .dish-points,
 .info-list {
   display: grid;
@@ -651,6 +687,7 @@ dd {
 
   .intro-grid,
   .feature-dish,
+  .hot-video-block,
   .story-grid,
   .interior-section,
   .event,
@@ -752,6 +789,10 @@ dd {
 
   .feature-text {
     padding: 24px 20px;
+  }
+
+  .hot-video-block {
+    padding: 18px;
   }
 
   .dish-points div,
