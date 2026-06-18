@@ -528,6 +528,20 @@ dd {
   color: var(--muted);
 }
 
+.youtube-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  margin-top: 22px;
+  padding: 0 18px;
+  border-radius: 8px;
+  background: var(--tomato);
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
+}
+
 .youtube-embed {
   overflow: hidden;
   aspect-ratio: 16 / 9;
