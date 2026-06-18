@@ -550,11 +550,50 @@ dd {
   box-shadow: var(--shadow);
 }
 
-.youtube-embed iframe {
+.youtube-thumb {
+  position: relative;
+  display: block;
+  text-decoration: none;
+}
+
+.youtube-thumb img {
   display: block;
   width: 100%;
   height: 100%;
-  border: 0;
+  object-fit: cover;
+}
+
+.youtube-thumb::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.04));
+}
+
+.youtube-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--tomato);
+  transform: translate(-50%, -50%);
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.28);
+}
+
+.youtube-play::before {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  width: 0;
+  height: 0;
+  content: "";
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 22px solid #fff;
+  transform: translate(-42%, -50%);
 }
 
 .interior-section {
