@@ -330,7 +330,7 @@ a {
 .reservation-guide li {
   counter-increment: order-step;
   display: grid;
-  grid-template-columns: 34px 110px minmax(0, 1fr);
+  grid-template-columns: 34px minmax(150px, 0.8fr) minmax(0, 1fr);
   gap: 12px;
   align-items: center;
   padding: 12px 0;
