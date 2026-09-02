@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="北海道新ひだか町三石の飲食店、くまのフライパン。健酵豚の厚切りポークチャップを看板に、店内から太平洋を一望できる食事処です。"
+      content="北海道新ひだか町三石の飲食店、くまのフライパン。健酵豚の厚切りポークチャップを看板に、熱々の洋食、新メニュー、営業時間、アクセスをご案内します。"
     >
     <title>くまのフライパン | 新ひだか三石のポークチャップ</title>
-    <link rel="stylesheet" href="styles.css?v=20260618-youtube-guests">
+    <meta property="og:title" content="くまのフライパン | 新ひだか三石のポークチャップ">
+    <meta property="og:description" content="地元ブランド豚・健酵豚の厚切りポークチャップを、熱々のひと皿で。新メニューと店舗情報をご案内します。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hokkaido-gadget.github.io/kumahura/">
+    <meta property="og:image" content="https://hokkaido-gadget.github.io/kumahura/assets/pork-veg-skillet.jpeg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="styles.css?v=20260902-integrated">
   </head>
   <body>
     <header class="site-header" aria-label="サイトヘッダー">
@@ -24,7 +30,7 @@
         <a href="#action">予約・確認</a>
         <a href="#shop">店舗案内</a>
       </nav>
-      <a class="header-cta" href="#shop">行き方を見る</a>
+      <a class="header-cta" href="https://lin.ee/pIFQMBBQ" target="_blank" rel="noopener">公式LINE</a>
     </header>
 
     <main id="top">
@@ -39,8 +45,9 @@
             太平洋を眺めながら味わう、健酵豚の厚切りポークチャップ。お店からイベントまで、新ひだか町のおいしさを届けます。
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#menu">看板メニューを見る</a>
+            <a class="button primary" href="#menu">新メニューを見る</a>
             <a class="button secondary" href="#shop">店舗案内</a>
+            <a class="button secondary" href="https://lin.ee/pIFQMBBQ" target="_blank" rel="noopener">公式LINE</a>
           </div>
         </div>
       </section>
@@ -69,10 +76,14 @@
           </div>
           <div class="feature-text">
             <p class="dish-label">人気ナンバーワン</p>
-            <h3>厚切り健酵豚ポークチャップ</h3>
+            <h3>健酵豚ポークチャップ 200g</h3>
             <p>
               新ひだか町三石の猪野毛ファーム「健酵豚」を使い、低温調理でしっとり仕上げる厚切りの一皿。サラダ・ご飯・汁物付きで、満足感のある看板メニューです。
             </p>
+            <div class="signature-price" aria-label="健酵豚ポークチャップの価格">
+              <span>ロース <strong>¥1,980</strong></span>
+              <span>バラ <strong>¥1,780</strong></span>
+            </div>
             <dl class="dish-points">
               <div>
                 <dt>素材</dt>
@@ -116,6 +127,7 @@
             <img src="assets/katsu-pasta-close.jpeg" alt="鉄板に盛られたスパカツ">
             <div>
               <h3>スパカツ</h3>
+              <p class="menu-card-price">¥1,500</p>
               <p>健酵豚ミートソース使用。サラダ付きで、チーズトッピングも楽しめます。</p>
             </div>
           </article>
@@ -123,6 +135,7 @@
             <img src="assets/cheese-katsu-close.jpeg" alt="チーズがとろけるカツの鉄板メニュー">
             <div>
               <h3>カツレツ</h3>
+              <p class="menu-card-price">¥1,480</p>
               <p>熱々鉄板の上にチーズとカツ。手作りトマトソースが美味しい、ごはん・サラダ付きのメインです。</p>
             </div>
           </article>
@@ -130,9 +143,47 @@
             <img src="assets/steak-set.jpeg" alt="ステーキ定食">
             <div>
               <h3>トンテキガーリック</h3>
+              <p class="menu-card-price">¥1,680</p>
               <p>健酵豚肩ロースを使った、にんにくの効いたご飯が進む一品。メガ追いニンニクもできます。</p>
             </div>
           </article>
+        </div>
+
+        <div class="new-menu" aria-labelledby="new-menu-title">
+          <div class="new-menu-heading">
+            <div>
+              <p class="section-kicker">New Menu</p>
+              <h3 id="new-menu-title">食べたい気分に、ちゃんと応える。</h3>
+            </div>
+            <p>鉄板料理、カレー、丼ものまで。新しいメニューと価格をまとめました。</p>
+          </div>
+          <div class="menu-catalog">
+            <section class="menu-category" aria-labelledby="main-dishes-title">
+              <h4 id="main-dishes-title">メインメニュー</h4>
+              <dl class="price-list">
+                <div><dt>超厚切りポークチャップ 500g</dt><dd>¥3,500</dd></div>
+                <div><dt>健酵豚ハンバーグ</dt><dd>¥1,500</dd></div>
+                <div><dt>生姜焼き</dt><dd>¥1,280</dd></div>
+                <div><dt>牛もつ鉄板焼そば</dt><dd>¥1,280</dd></div>
+                <div><dt>カレー</dt><dd>¥900</dd></div>
+                <div><dt>豚の揚げ角煮丼</dt><dd>¥1,280</dd></div>
+                <div><dt>海鮮かき揚げ丼</dt><dd>¥1,280</dd></div>
+                <div><dt>マグロユッケ丼</dt><dd>¥1,100</dd></div>
+              </dl>
+            </section>
+            <section class="menu-category toppings" aria-labelledby="toppings-title">
+              <h4 id="toppings-title">追加・トッピング</h4>
+              <ul>
+                <li><span>ハンバーグ チーズ</span><strong>+¥300</strong></li>
+                <li><span>カレー カツ</span><strong>+¥450</strong></li>
+                <li><span>カレー エビフライ</span><strong>+¥600</strong></li>
+                <li><span>スパカツ カツ増し1枚</span><strong>+¥450</strong></li>
+                <li><span>ミートソース・チーズ追加</span><strong>各 +¥300</strong></li>
+                <li><span>ごはん・麺大盛り</span><strong>+¥300</strong></li>
+              </ul>
+              <p class="menu-note">数量限定メニューや当日の提供状況は、公式LINEまたはお電話でご確認ください。</p>
+            </section>
+          </div>
         </div>
       </section>
 
@@ -255,13 +306,16 @@
             <span>01</span>
             <h3>道順を確認する</h3>
             <p>三石道の駅から車ですぐ。営業前に場所を確認しておくとスムーズです。</p>
-            <a class="button primary" href="https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%B5%B7%E9%81%93%E6%97%A5%E9%AB%98%E9%83%A1%E6%96%B0%E3%81%B2%E3%81%A0%E3%81%8B%E7%94%BA%E4%B8%89%E7%9F%B3%E9%B3%A7%E8%88%9E129-2%20%E3%81%8F%E3%81%BE%E3%81%AE%E3%83%95%E3%83%A9%E3%82%A4%E3%83%91%E3%83%B3" target="_blank" rel="noopener">Googleマップ</a>
+            <a class="button primary" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%8C%97%E6%B5%B7%E9%81%93%E6%97%A5%E9%AB%98%E9%83%A1%E6%96%B0%E3%81%B2%E3%81%A0%E3%81%8B%E7%94%BA%E4%B8%89%E7%9F%B3%E9%B3%A7%E8%88%9E129-2%20%E3%81%8F%E3%81%BE%E3%81%AE%E3%83%95%E3%83%A9%E3%82%A4%E3%83%91%E3%83%B3" target="_blank" rel="noopener">Googleマップ</a>
           </article>
           <article class="action-card">
             <span>02</span>
             <h3>事前に問い合わせる</h3>
-            <p>ポークチャップは数に限りがあります。来店前の確認や弁当・オードブル相談に使えます。</p>
-            <a class="button primary" href="tel:08096199090">電話する</a>
+            <p>ポークチャップの提供状況や、弁当・オードブルの相談はLINEまたはお電話で確認できます。</p>
+            <div class="button-stack">
+              <a class="button line-button" href="https://lin.ee/pIFQMBBQ" target="_blank" rel="noopener">公式LINE</a>
+              <a class="button secondary" href="tel:08096199090">電話する</a>
+            </div>
           </article>
           <article class="action-card">
             <span>03</span>
@@ -269,7 +323,7 @@
             <p>営業情報や料理写真、イベント出店の様子はInstagramで確認できます。公式サイトも併せて確認できます。</p>
             <div class="button-stack">
               <a class="button primary" href="https://www.instagram.com/kuma_hura" target="_blank" rel="noopener">Instagram</a>
-              <a class="button secondary" href="https://kuma-hura.com/" target="_blank" rel="noopener">公式サイト</a>
+              <a class="button secondary" href="https://kuma-hura.com/" target="_blank" rel="noopener">これまでの公式サイト</a>
             </div>
           </article>
           <article class="action-card review-card">
@@ -302,11 +356,11 @@
             </div>
             <div>
               <dt>営業時間</dt>
-              <dd>ランチ 11:00 - 14:30 / ディナー 17:00 - 21:00（Lo20:30）</dd>
+              <dd>ランチ 11:00 - 14:00 / ディナー 17:00 - 20:00（L.O. 19:30）</dd>
             </div>
             <div>
               <dt>定休日</dt>
-              <dd>毎週日曜日、毎月第1・第3月曜日</dd>
+              <dd>日曜日・月曜日の夜</dd>
             </div>
             <div>
               <dt>TEL</dt>
@@ -318,7 +372,8 @@
             </div>
           </dl>
           <div class="shop-actions">
-            <a class="button primary" href="https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%B5%B7%E9%81%93%E6%97%A5%E9%AB%98%E9%83%A1%E6%96%B0%E3%81%B2%E3%81%A0%E3%81%8B%E7%94%BA%E4%B8%89%E7%9F%B3%E9%B3%A7%E8%88%9E129-2%20%E3%81%8F%E3%81%BE%E3%81%AE%E3%83%95%E3%83%A9%E3%82%A4%E3%83%91%E3%83%B3" target="_blank" rel="noopener">Googleマップで見る</a>
+            <a class="button primary" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%8C%97%E6%B5%B7%E9%81%93%E6%97%A5%E9%AB%98%E9%83%A1%E6%96%B0%E3%81%B2%E3%81%A0%E3%81%8B%E7%94%BA%E4%B8%89%E7%9F%B3%E9%B3%A7%E8%88%9E129-2%20%E3%81%8F%E3%81%BE%E3%81%AE%E3%83%95%E3%83%A9%E3%82%A4%E3%83%91%E3%83%B3" target="_blank" rel="noopener">Googleマップで見る</a>
+            <a class="button line-button" href="https://lin.ee/pIFQMBBQ" target="_blank" rel="noopener">公式LINE</a>
             <a class="button secondary" href="tel:08096199090">電話する</a>
           </div>
         </div>
@@ -326,8 +381,14 @@
     </main>
 
     <footer class="footer">
-      <p>くまのフライパン</p>
-      <p>新ひだか三石で、お待ちしています。</p>
+      <div>
+        <p>くまのフライパン</p>
+        <p>新ひだか三石で、お待ちしています。</p>
+      </div>
+      <p class="footer-links">
+        <a href="https://lin.ee/pIFQMBBQ" target="_blank" rel="noopener">公式LINE</a>
+        <a href="https://www.instagram.com/kuma_hura" target="_blank" rel="noopener">Instagram</a>
+      </p>
     </footer>
 
     <script src="script.js"></script>
