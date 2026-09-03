@@ -476,6 +476,12 @@ a {
   color: rgba(255, 255, 255, 0.78);
 }
 
+.hot-video-copy .hot-video-note {
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 13px;
+}
+
 .hot-video {
   display: block;
   width: 100%;
