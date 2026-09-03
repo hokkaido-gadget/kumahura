@@ -841,6 +841,15 @@ dd {
   grid-row: span 2;
 }
 
+.interior-grid-current {
+  grid-template-columns: 1.25fr 0.75fr;
+  grid-auto-rows: 360px;
+}
+
+.interior-grid.interior-grid-current .interior-large {
+  grid-row: auto;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: 0.86fr 1fr 1fr 1.05fr;
