@@ -25,6 +25,7 @@ jobs:
           python3 - <<'PY'
           from html.parser import HTMLParser
           from pathlib import Path
+          from urllib.parse import urlsplit
           import shutil
 
           root = Path.cwd()
@@ -46,7 +47,7 @@ jobs:
               def handle_starttag(self, tag, attrs):
                   for key, value in attrs:
                       if key in ('src', 'poster') and value and value.startswith('assets/'):
-                          self.paths.add(value)
+                          self.paths.add(urlsplit(value).path)
 
           parser = AssetParser()
           parser.feed((root / 'index.html').read_text(encoding='utf-8'))
